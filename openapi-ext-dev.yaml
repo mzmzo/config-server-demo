@@ -1,6 +1,7 @@
-server: 
+app: 
   port: 8000
-project: 
-  name: ucode
-search_url: 
-  https://www.baidu.com/s?wd=%v
+  name: opneapi-ext
+  zkquorum: 10.0.0.2
+  zkroot: /hbase
+  effectiveUser: hadoop
+  search_url: https://cn.bing.com/search?q=%v
