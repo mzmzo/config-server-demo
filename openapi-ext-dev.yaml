@@ -1,9 +1,9 @@
-server:
+server: 
   port: 8000
-project:
+project: 
   name: ucode
-spring:
-  application:
+spring: 
+  application: 
    name: opneapi-ext
-search_url:
+search_url: 
   https://www.baidu.com/s?wd=%v
