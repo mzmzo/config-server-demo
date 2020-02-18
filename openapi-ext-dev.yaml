@@ -1,7 +1,7 @@
 app: 
   port: 8000
   name: opneapi-ext
-  zkquorum: 10.0.0.2
-  zkroot: /hbase
-  effectiveUser: hadoop
+  zk_quorum: 10.0.0.2
+  zk_root: /hbase
+  effective_user: hadoop
   search_url: https://cn.bing.com/search?q=%v
